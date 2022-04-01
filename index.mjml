@@ -1,24 +1,113 @@
 <mjml>
   <mj-body>
-   <mj-section>
+<!-- HEADER -->
+   <mj-section background-color="#ededed">
       <mj-column>
-          <mj-image src="" alt="" />
+          <mj-image src="https://github.com/Drlazinho/email-marketing-lista-de-alunos/blob/master/img/logo.png?raw=true" alt="Logo StyleCasual" width="300px"/>
       </mj-column>
     </mj-section>
-    <mj-section>
-      
+<!-- BANNER -->
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text align="center">
+          <p style="font-size: 40px; color:#000; font-weight: bold">Lista de alunos</p>
+        </mj-text>
+        <mj-image src="https://github.com/Drlazinho/email-marketing-lista-de-alunos/blob/master/img/banner.png?raw=true" alt="Um desenho de dois rapaz sentados trabalhando com notebook em um escritório"  width="300px"/>
+        <mj-text align="center">
+          <p style="font-size: 18px">Olá. Segue a lista de alunos com seus respectivos cursos</p>
+        </mj-text>
+      </mj-column>
     </mj-section>
-    <mj-section>
-      
+<!-- TABELA -->
+    <mj-section padding-top="0">
+    <mj-column width="600px" padding-top="0">
+        <mj-table padding="0">
+          <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
+            <th>Matrícula</th>
+            <th>Colaborador</th>
+            <th>Nome do Curso</th>
+          </tr>
+          <tr style="text-align:center;">
+            <td>989628</td>
+            <td>Lazaro Pimentel Bonfim</td>
+            <td>Cripto Dev</td>
+          </tr>
+        </mj-table>
+        <mj-table>
+          <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
+            <th>Carga horária</th>
+            <th>Concluir até</th>
+            <th>Andamento</th>
+            <th>Status</th>
+          </tr>
+          <tr style="text-align:center;">
+            <td>90</td>
+            <td>06/2022</td>
+            <td>15%</td>
+            <td>Andamento</td>
+          </tr>
+        </mj-table>
+    </mj-column>
     </mj-section>
-    <mj-section>
-      
+<!-- LINKS -->
+    <mj-section background-color=#333>
+      <mj-column width="200px" >
+        <mj-text align="center">
+          <h2 style="color: #fff">Contact Us<h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" >
+        <mj-text align="center">
+          <h2 style="color: #fff">Recommended</h2>
+          <p><a style="color: #fff" href="">New Releasex</a></p>
+          <p><a style="color: #fff" href="">Best Seller</a></p>
+          <p><a style="color: #fff" href="">Promotional</a></p>
+          <p><a style="color: #fff" href="">Pre Order</a></p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" >
+        <mj-text align="center">
+          <h2 style="color: #fff">Newsletter</h2>
+          <p><a style="color: #fff" href="">Forward</a></p>
+          <p><a style="color: #fff" href="">Unsubscribe</a></p>
+          <p><a style="color: #fff" href="">Home</a></p>
+        </mj-text>
+      </mj-column>
+
     </mj-section>
+<!-- Socials -->
     <mj-section>
-      
+      <mj-column width="600px">
+        <mj-social align="center" inner-padding="20px" icon-size="30px">
+          <mj-social-element background-color="#000" name="facebook" href="https://www.facebook.com/"></mj-social-element>
+          <mj-social-element background-color="#000" name="twitter" href="https://twitter.com/"></mj-social-element>
+          <mj-social-element background-color="#000" name="instagram" href="https://www.instagram.com/"></mj-social-element>
+          <mj-social-element background-color="#000" name="youtube" href="https://www.youtube.com/"></mj-social-element>
+        </mj-social>
+        <mj-text align="center" line-height="20px">
+          <p>Style Casual © 2021 Style Casual, Inc. All Rights Reserved.<br>4562 Hazy Panda Limits, Chair Crossing, Kentucky, US, 607898</p>
+        </mj-text>
+      </mj-column>
     </mj-section>
+<!-- Privacy -->
     <mj-section>
-      
+      <mj-column width="600px">
+   				<mj-table>
+        	<tr style="text-align:center;">
+            <th><a href="#" style="color: #afaaaa">Visit Us</a></th>
+            <th><a href="#" style="color: #afaaaa">Privacy Policy</a></th>
+            <th><a href="#" style="color: #afaaaa">Terms of Use</a></th>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+<!-- Unscribe -->
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text align="center">
+          <p style="font-size: 10px; color: #afaaaa">No longer want to receive these emails?<a href="#" style="color: #7c7c7c"> Unsubscribe.</a></p>
+        </mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
