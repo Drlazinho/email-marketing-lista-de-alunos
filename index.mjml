@@ -23,58 +23,32 @@
     <mj-column width="600px" padding-top="0">
         <mj-table padding="0">
           <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
-            <th>Matrícula</th>
+            <th>Mat</th>
             <th>Colaborador</th>
-            <th>Nome do Curso</th>
+            <th>Curso</th>
+            <th>CH</th>
+            <th>Data Final</th>
+            <th>Status</th>
           </tr>
-          <tr style="text-align:center;">
+          <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
             <td>989628</td>
             <td>Lazaro Pimentel Bonfim</td>
             <td>Cripto Dev</td>
-          </tr>
-        </mj-table>
-        <mj-table>
-          <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
-            <th>Carga horária</th>
-            <th>Concluir até</th>
-            <th>Andamento</th>
-            <th>Status</th>
-          </tr>
-          <tr style="text-align:center;">
             <td>90</td>
             <td>06/2022</td>
-            <td>15%</td>
-            <td>Andamento</td>
+            <td>15% - Andamento</td>
           </tr>
+          <tr style="border-bottom:1px solid #c9c9c9;text-align:center;">
+            <td>777</td>
+            <td>Arnold Schwarzenegger</td>
+            <td>Musculação</td>
+            <td>300</td>
+            <td>06/2022</td>
+            <td>100% - Concluído</td>
+          </tr>          
         </mj-table>
     </mj-column>
-    </mj-section>
-<!-- LINKS -->
-    <mj-section background-color=#333>
-      <mj-column width="200px" >
-        <mj-text align="center">
-          <h2 style="color: #fff">Contact Us<h2>
-        </mj-text>
-      </mj-column>
-      <mj-column width="200px" >
-        <mj-text align="center">
-          <h2 style="color: #fff">Recommended</h2>
-          <p><a style="color: #fff" href="">New Releasex</a></p>
-          <p><a style="color: #fff" href="">Best Seller</a></p>
-          <p><a style="color: #fff" href="">Promotional</a></p>
-          <p><a style="color: #fff" href="">Pre Order</a></p>
-        </mj-text>
-      </mj-column>
-      <mj-column width="200px" >
-        <mj-text align="center">
-          <h2 style="color: #fff">Newsletter</h2>
-          <p><a style="color: #fff" href="">Forward</a></p>
-          <p><a style="color: #fff" href="">Unsubscribe</a></p>
-          <p><a style="color: #fff" href="">Home</a></p>
-        </mj-text>
-      </mj-column>
-
-    </mj-section>
+    </mj-section>    
 <!-- Socials -->
     <mj-section>
       <mj-column width="600px">
